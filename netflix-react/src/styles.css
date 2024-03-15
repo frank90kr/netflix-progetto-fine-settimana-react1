@@ -1,0 +1,112 @@
+body {
+  background: #141414;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+#logo {
+  height: 50px;
+}
+
+#nav-utilities {
+  position: absolute;
+  right: 60px;
+}
+
+.nav-link {
+  font-size: 15px;
+  color: gray;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.861);
+}
+
+.navbar-icon {
+  color: gray;
+  cursor: pointer;
+}
+
+.navbar-icon:hover {
+  color: white;
+}
+.search:hover {
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+
+#avatar {
+  height: 40px;
+}
+
+.dropdown-menu {
+  background-color: rgb(13, 13, 13);
+}
+
+.dropdown-menu a {
+  font-size: 15px;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+/* Main */
+
+.cover {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.cover:hover {
+  transition: 0.2s;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* Footer */
+
+.icon-footer {
+  color: #838383cf;
+  cursor: pointer;
+}
+.icon-footer:hover {
+  color: rgba(255, 255, 255, 0.861);
+}
+.footer-links {
+  margin-top: 1.5rem;
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.footer-links p {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  line-height: 1.5;
+  color: #838383;
+}
+
+.footer-links button {
+  color: #838383;
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.service-button {
+  color: #838383;
+  border-color: #838383;
+}
+.service-button:hover {
+  color: rgba(255, 255, 255, 0.77);
+  border-color: rgba(255, 255, 255, 0.77);
+}
+
+.copyright {
+  color: #838383;
+  font-size: 0.6em;
+}
